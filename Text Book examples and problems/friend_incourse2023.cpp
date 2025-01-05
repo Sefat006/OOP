@@ -35,7 +35,8 @@ int largest(A a, B b) {
     } else {
         cout << "b is the largest" << endl;
     }
-    return (a.a > b.b) ? a.a : b.b;  // Returning the largest value (optional)
+    //return (a.a > b.b) ? a.a : b.b;  // Returning the largest value (optional)
+    return a.a & b.b;
 }
 
 int main() {
